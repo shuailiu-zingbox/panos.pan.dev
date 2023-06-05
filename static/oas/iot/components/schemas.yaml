@@ -336,10 +336,20 @@ schemas:
     properties:
       api:
         type: string
-        description: The current api URI
+        description: The current API URI
       updateSuccess:
         type: string
         description: To indicate whether the adding operation is success or not
+
+  removingTag:
+    type: object
+    properties:
+      api:
+        type: string
+        description: The current API URI
+      resmoveSuccess:
+        type: string
+        description: To indicate whether the removing operation is success or not
 
   AlertDetails:
     type: object
