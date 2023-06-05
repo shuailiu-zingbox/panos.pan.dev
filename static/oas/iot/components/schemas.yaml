@@ -331,6 +331,16 @@ schemas:
         type: string
         description: The ID of a user-defined tag
 
+  AddingTag:
+    type: object
+    properties:
+      api:
+        type: string
+        description: The current api URI
+      updateSuccess:
+        type: string
+        description: To indicate whether the adding operation is success or not
+
   AlertDetails:
     type: object
     properties:

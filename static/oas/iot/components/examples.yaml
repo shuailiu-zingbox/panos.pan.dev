@@ -175,6 +175,13 @@ examples:
       ]
     }
 
+  AddingTag:
+    value: {
+      "api": "pub/v4.0/tag",
+      "updateSuccess": "yes"
+    }
+
+
   AlertCapabilityResponseExample:
     value: {
       "api": "alertVulnCapability/getList",
